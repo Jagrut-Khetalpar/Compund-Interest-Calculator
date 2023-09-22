@@ -71,7 +71,7 @@ const UserInput = (props) => {
           />
         </p>
         <p>
-          <label htmlFor="duration">Investment Duration (years)</label>
+          <label htmlFor="duration">Investment Duration(years)</label>
           <input
             type="number"
             onChange={(e) => inputChangeHandler("duration", e.target.value)}
@@ -89,7 +89,7 @@ const UserInput = (props) => {
           Reset
         </button>
         <button type="submit" className={classes["button"]}>
-          Calculate
+          Calculate Interest
         </button>
       </p>
     </form>
