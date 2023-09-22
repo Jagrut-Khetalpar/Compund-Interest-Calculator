@@ -34,7 +34,7 @@ const UserInput = (props) => {
     <form onSubmit={submitHandler} className={classes.form}>
       <div className={classes["input-group"]}>
         <p>
-          <label htmlFor="current-savings">Current Savings ($)</label>
+          <label htmlFor="current-savings">Current Savings (₹)</label>
           <input
             type="number"
             onChange={(e) =>
@@ -45,7 +45,7 @@ const UserInput = (props) => {
           />
         </p>
         <p>
-          <label htmlFor="yearly-contribution">Yearly Savings ($)</label>
+          <label htmlFor="yearly-contribution">Yearly Savings (₹)</label>
           <input
             type="number"
             onChange={(e) =>
